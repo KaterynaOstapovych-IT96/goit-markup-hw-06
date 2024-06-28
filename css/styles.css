@@ -98,17 +98,30 @@ a {
     background-color: #f4f4fd;
 }
 .team-title {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 1.11;
-    text-align: center;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
 }
-
+.team-list-item {
+    background-color: #ffffff;
+}
+.team-list-paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 
 .page-footer {
     background-color: #2e2f42;;
+}
+.footer-between {
+    color: #f4f4fd;
+}
+.footer-paragraph {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02;
 }
