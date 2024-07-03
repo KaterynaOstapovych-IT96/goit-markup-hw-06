@@ -126,6 +126,7 @@ a {
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    text-align: center;
 }
 .information .mine-title {
     font-size: 56px;
@@ -133,12 +134,10 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-
-}
-.mine-title {
     max-width: 496px;
 
 }
+
 .features-title {
     font-weight: 500;
     font-size: 20px;
