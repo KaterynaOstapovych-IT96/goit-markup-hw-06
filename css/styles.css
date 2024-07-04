@@ -181,6 +181,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
+    flex-wrap: wrap;
 }
 .our-team {
     background-color: #f4f4fd;
@@ -251,9 +252,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.container-footer {
 
-}
 .page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
