@@ -26,6 +26,14 @@ img {
     padding: 0 15px;
     margin: 0 auto;
 }
+img {
+    display: block;
+}
+textarea:focus,
+select:focus,
+input:focus {
+    outline: 0;
+}
 /* header */
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -170,11 +178,12 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
    justify-content: center;
-   margin: 0;
+     gap: 24px;
 }
 .features-list-item {
     color: #434455;
     margin: 0;
+    
 }
 
 .features-paragraph {
@@ -182,6 +191,7 @@ img {
     letter-spacing: 0.02em;
     margin: 0;
     flex-wrap: wrap;
+    
 }
 .our-team {
     background-color: #f4f4fd;
@@ -194,6 +204,7 @@ img {
     font-weight: 500;
     line-height: 1.11;
     text-align: center;
+    justify-content: stretch;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
