@@ -163,6 +163,10 @@ input:focus {
     max-width: 496px;
 
 }
+.features-container {
+    padding: 120px 0;
+    width: calc((100% - 72px) / 4);
+}
 
 .features-title {
     font-weight: 500;
@@ -170,7 +174,7 @@ input:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+    margin-bottom: 8px;    
 }
 
 .features-list {
