@@ -62,6 +62,7 @@ input:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
     border-bottom: 1px solid #e7e9fc;
+    display: block;
 }
 .header-logo {
     padding: 24px;
@@ -252,7 +253,7 @@ input:focus {
 .portfolio-list {
     display: flex;
     flex-direction: row;
-   g
+    flex-wrap: wrap;
     gap: 24px;
 }
 
