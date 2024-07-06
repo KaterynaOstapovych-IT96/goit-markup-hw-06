@@ -284,6 +284,7 @@ input:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
   /*margin: 0;*/
 }
 
@@ -342,6 +343,7 @@ input:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-paragraph {
