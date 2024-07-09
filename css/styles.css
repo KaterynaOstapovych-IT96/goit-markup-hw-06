@@ -195,14 +195,17 @@ input:focus {
   background-color: #404bbf;
 }
 
-.information {
+.hero {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
+  background-image:(to bottom, rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)),
+   url("../images/image11.jpg");
 }
 
-.information .mine-title {
+.hero .mine-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
