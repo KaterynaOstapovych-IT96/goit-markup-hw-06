@@ -199,7 +199,7 @@ input:focus {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-  background-image:(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url("../images/image11.jpg");
+  background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url("../images/image11.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
