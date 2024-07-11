@@ -67,6 +67,10 @@ input:focus {
 /* header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -117,6 +121,7 @@ input:focus {
 }
 
 .nav-list-link {
+  position: relative;
   display: block;
   padding: 24px 0;
   font-weight: 500;
@@ -124,6 +129,24 @@ input:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.nav-list-link::after {
+  position: absolute;
+  content: "";
+  background-color: transparent;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  bottom: -1px;
+  left: 0;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list-link:hover::after,
+.nav-list-link:focus::after,
+.nav-list-link.is-active::after {
+  background-color: #404bbf;
 }
 
 .contacts {
@@ -144,6 +167,7 @@ input:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list-link:hover,
@@ -175,7 +199,7 @@ input:focus {
   line-height: 1.5;
   border: none;
   border-radius: 4px;
-  transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin: 0 auto;
   min-width: 169px;
@@ -236,7 +260,6 @@ input:focus {
 
 .features-list-item {
   color: #434455;
-  /*margin: 0;*/
 }
 
 .features-icon {
@@ -311,6 +334,7 @@ input:focus {
 .team-list-paragraph {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-icons-list {
@@ -368,6 +392,7 @@ input:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  background-color: #4d5ae5;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
   padding: 40px 32px;
@@ -383,6 +408,7 @@ input:focus {
   max-width: 360px;
   width: 100%;
 }
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
