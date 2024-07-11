@@ -314,6 +314,34 @@ input:focus {
   letter-spacing: 0.02em;
 }
 
+.team-icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.team-icons-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.team-icon {
+fill: #f4f4fd;
+}
+
+.team-icons-link:hover
+.team-icons-link:focus {
+  background-color: #404bbf;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
