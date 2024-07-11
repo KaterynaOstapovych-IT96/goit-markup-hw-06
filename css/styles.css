@@ -456,6 +456,7 @@ input:focus {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-between {
