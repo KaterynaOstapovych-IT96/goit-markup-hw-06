@@ -148,7 +148,7 @@ input:focus {
 
 .nav-list-link:hover::after,
 .nav-list-link:focus::after,
-.nav-list-link.is-active::after {
+.nav-list-link.current::after {
   background-color: #404bbf;
 }
 
@@ -167,6 +167,7 @@ input:focus {
   display: block;
   padding: 24px 0;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -420,6 +421,14 @@ input:focus {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-content {
