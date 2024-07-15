@@ -533,11 +533,12 @@ input:focus {
 .subscribe-form {
   display: flex;
   gap: 24px;
+  border: 1px solid#ffffff;
 }
 
 .subscribe-input {
   padding: 7px 16px;
-  border: 1px solid#ffffff; ;
+  border: 1px solid#ffffff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
