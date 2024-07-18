@@ -586,7 +586,7 @@ input:focus {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: hidden;
-  background-color:#fcfcfc; 
+  background-color: rgba(46, 47, 66, 0.4); ; 
   display: flex;
   
 }
@@ -598,7 +598,7 @@ input:focus {
 }
 
 .modal {
-  max-width: 408px;
+  width: 408px;
   width: 100%;
   min-height: 584px;
   transform: translate(-50%, -50%);
