@@ -583,8 +583,8 @@ input:focus {
   z-index: 999;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   visibility: hidden;
   background-color: rgba(46, 47, 66, 0.4); ; 
   display: flex;
@@ -622,12 +622,16 @@ input:focus {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   transition: 
-     backround-colour 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  backround-colour 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.modal-overlay:not( .is-open) .modal {
+  transform: translate(-50%, -50%) scale(1.5);
 }
 
 .modal-close-btn:hover,
