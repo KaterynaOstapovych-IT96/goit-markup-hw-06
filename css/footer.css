@@ -1,5 +1,5 @@
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--navy-blue);
     padding: 96px 0;
 }
 
@@ -23,12 +23,12 @@
 
 .footer-logo {
     display: inline-block;
-    color: #f4f4fd;
+    color: var(--cloud);
     margin-bottom: 16px;
 }
 
 .footer-text {
-    color: #f4f4fd;
+    color: var(--cloud);
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -36,7 +36,7 @@
 .footer-social-text {
     font-weight: 500;
     letter-spacing: 0.02em;
-    color:#fff;
+    color: var(--white);
     margin-bottom: 16px;
 }
 
@@ -56,20 +56,20 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #4d5ae5;
+    background-color: var(--iris);
     transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon,
 .mob-social-icon {
-    fill: #f4f4fd;
+    fill: var(--cloud);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus,
 .mob-social-link:hover,
 .mob-social-link:focus {
-    background-color: #31d0aa;
+    background-color: var(--green);
 }
 
 .subscribe {
@@ -80,7 +80,7 @@
 .subscribe-title {
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: var(--white);
     margin-bottom: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -100,14 +100,14 @@
 
 .subscribe-input {
     padding: 7px 16px;
-    border: 1px solid  #fff;
+    border: 1px solid var(--white);
     border-radius: 4px;
     min-width: 100%;
     height: 40px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color:  #fff;);
+    color: var(--white);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -115,11 +115,11 @@
 
 .subscribe-input:hover,
 .subscribe-input:focus {
-    border: 1px solid  #fff;;
+    border: 1px solid var(--white);
 }
 
 .subscribe-input::placeholder {
-color: #fff;
+    color: var(--white);
 }
 
 .subscribe-btn-icon {
@@ -128,7 +128,7 @@ color: #fff;
 
 .subscribe-btn {
     padding: 8px 24px;
-    fill:  #fff;
+    fill: var(--white);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +144,7 @@ color: #fff;
         align-items: flex-start;
         justify-content: flex-start;
         gap: 72px 24px;
-        max-width: 496px;
+        max-width: 552px;
         margin: 0 auto;
     }
 

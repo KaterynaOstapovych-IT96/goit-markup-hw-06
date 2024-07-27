@@ -1,7 +1,7 @@
 .hero {
     padding: 72px 0;
-    background-color: #2e2f42;;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/image11.jpg");
+    background-color: var(--navy-blue);
+    background-image: linear-gradient(to bottom, var(--grey), var(--grey)), url("../images/hero-img.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,7 +10,7 @@
 
 @media (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/image@2x.jpg");
+        background-image: linear-gradient(to bottom, var(--grey), var(--grey)), url("../images/hero-img@2x.jpg");
     }
 }
 
@@ -20,7 +20,7 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
+    color: var(--white);
     max-width: 216px;
     margin: 0 auto 72px;
 }
