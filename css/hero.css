@@ -1,7 +1,7 @@
 .hero {
     padding: 72px 0;
     background-color: var(--navy-blue);
-    background-image: linear-gradient(to bottom, var(--grey), var(--grey)), url("../images/hero-img.jpg");
+    background-image: linear-gradient(to bottom, var(--grey), var(--grey)), url("../images/hero/hero-image.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -10,7 +10,7 @@
 
 @media (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(to bottom, var(--grey), var(--grey)), url("../images/hero-img@2x.jpg");
+        background-image: linear-gradient(to bottom, var(--grey), var(--grey)), url("../images/hero/hero-image@2x.jpg");
     }
 }
 
